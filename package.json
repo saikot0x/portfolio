@@ -1,0 +1,12 @@
+{
+  "name": "md-saikot-mia-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website of Md Saikot Mia (saikot0x) — cybersecurity & networking",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": ["portfolio", "cybersecurity", "networking", "saikot0x"],
+  "author": "Md Saikot Mia",
+  "license": "MIT"
+}
