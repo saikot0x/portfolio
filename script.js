@@ -1,6 +1,4 @@
-// script.js — Blueprint sheet interactivity
 
-// ---------- Sheets: fade/slide in on scroll ----------
 const sheets = document.querySelectorAll('.sheet');
 const sheetObserver = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
@@ -19,7 +17,7 @@ sheets.forEach((sheet) => {
     sheetObserver.observe(sheet);
 });
 
-// ---------- Table rows: quick stagger-in when their sheet appears ----------
+// ---------- Table rows ----------
 document.querySelectorAll('table tbody').forEach((tbody) => {
     const rows = tbody.querySelectorAll('tr');
     rows.forEach((row, i) => {
